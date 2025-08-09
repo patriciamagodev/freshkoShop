@@ -1,34 +1,56 @@
 [
     {
         "id": 1,
-        "name": "Hoodie 'Cosmic Dream'",
-        "price": 45.00,
+        "name": "Jersey 'Vapor'",
+        "price": 60.00,
         "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1887&auto=format&fit=crop",
-        "category": "Hoodie",
-        "description": "Una hoodie de algodón suave con un diseño galáctico que te hará destacar."
+        "category": "Jersey",
+        "description": "El jersey definitivo para entrenar. Transpirable y ultraligero.",
+        "isFeatured": true 
     },
     {
         "id": 2,
-        "name": "Camiseta 'Urban Jungle'",
-        "price": 25.00,
+        "name": "Pantaloneta 'Flow'",
+        "price": 35.00,
         "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1888&auto=format&fit=crop",
-        "category": "T-Shirt",
-        "description": "Camiseta de corte ajustado, ideal para quienes viven la ciudad al máximo."
+        "category": "Pantaloneta",
+        "description": "Libertad de movimiento para cualquier actividad. Confeccionado con tela elástica.",
+        "isFeatured": true 
     },
     {
         "id": 3,
-        "name": "Camiseta 'Retro Wave'",
-        "price": 22.00,
+        "name": "Accesorio 'Elite Bandana'",
+        "price": 15.00,
         "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1887&auto=format&fit=crop",
-        "category": "T-Shirt",
-        "description": "Un diseño vibrante inspirado en la estética de los años 80. ¡Pura energía retro!"
+        "category": "Accesorios",
+        "description": "Mantén el sudor a raya con esta bandana de alto rendimiento.",
+        "isFeatured": true 
     },
     {
         "id": 4,
-        "name": "Hoodie 'Minimalist Black'",
-        "price": 50.00,
+        "name": "Jersey 'Minimal'",
+        "price": 55.00,
         "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1887&auto=format&fit=crop",
-        "category": "Hoodie",
-        "description": "Básica y elegante. Perfecta para cualquier ocasión y combinación."
+        "category": "Jersey",
+        "description": "Diseño clásico para un estilo atemporal. Comodidad garantizada.",
+        "isFeatured": false 
+    },
+    {
+        "id": 5,
+        "name": "Pantaloneta 'Flow'",
+        "price": 35.00,
+        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1888&auto=format&fit=crop",
+        "category": "Pantaloneta",
+        "description": "Libertad de movimiento para cualquier actividad. Confeccionado con tela elástica.",
+        "isFeatured": false 
+    },
+    {
+        "id": 6,
+        "name": "Accesorio 'Elite Bandana'",
+        "price": 15.00,
+        "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1887&auto=format&fit=crop",
+        "category": "Accesorios",
+        "description": "Mantén el sudor a raya con esta bandana de alto rendimiento.",
+        "isFeatured": false 
     }
 ]
