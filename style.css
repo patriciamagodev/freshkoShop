@@ -181,6 +181,12 @@ section {
     margin: 15px;
     color: var(--dark-color);
 }
+/* Nuevo estilo para la descripción del producto */
+.product-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 15px 15px;
+}
 
 .product-price {
     font-size: 1.5rem;

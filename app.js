@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${product.image}" alt="${product.name}" class="product-image">
                 <div class="product-info">
                     <h3 class="product-name">${product.name}</h3>
+                    <p class="product-description">${product.description}</p>
                     <p class="product-price">$${product.price.toFixed(2)}</p>
                     <a href="${whatsappLink}" target="_blank" class="cta-button-product">Comprar por WhatsApp</a>
                 </div>
