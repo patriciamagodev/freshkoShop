@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     
     const productContainer = document.getElementById('product-container');
-    const whatsappNumber = 'TUNUMERODELWHATSAPP'; // ¡IMPORTANTE! Reemplaza con tu número
+    const whatsappNumber = '584120880801'; // ¡IMPORTANTE! Reemplaza con tu número
 
     // Función para obtener los productos del archivo JSON
     async function fetchProducts() {
@@ -21,8 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Función para renderizar los productos en el HTML
     function renderProducts(products) {
-        // Limpiar el contenedor por si acaso
-        productContainer.innerHTML = '';
+        productContainer.innerHTML = ''; // Limpiar el contenedor por si acaso
 
         products.forEach(product => {
             const productCard = document.createElement('article');
